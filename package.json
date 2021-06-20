@@ -6,10 +6,13 @@
     "dev": "next dev",
     "format": "prettier . --write --ignore-unknown",
     "build": "next build",
+    "postinstall": "keystone-next postinstall",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@keystone-next/fields": "^11.0.0",
+    "@keystone-next/keystone": "^20.0.0",
     "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
